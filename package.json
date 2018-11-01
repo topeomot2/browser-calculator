@@ -1,0 +1,20 @@
+{
+  "name": "bbrowser-calculator",
+  "description": "A Calculator totally hosted in the browser",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "devDependencies": {
+    "jasmine-core": "*",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "dependencies": {
+    "mathjs": "^5.2.3"
+  }
+}
