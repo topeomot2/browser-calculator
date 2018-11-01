@@ -23,18 +23,22 @@
         </div>
     
       <div class="row screen">
-            <div class="twelve columns">
-                    1234 + 2342
+            <div id="screen"class="twelve columns">
+                    
+            </div>
+            <div id="error_screen" class="twelve columns">
             </div>
       </div>
+    </div>
+    <div id="btns-container" class="container">
 
       <div class="row calbtn">
             <button class="button-primary two columns">7</button>
             <button class="button-primary two columns">8</button>
             <button class="button-primary two columns">9</button>
             <button class="button-primary two columns"><i class="fas fa-divide"></i></button>
-            <button class="button-primary two columns"><i class="fas fa-undo"></i></button>
             <button class="button-primary two columns"><i class="fas fa-backspace"></i></button>
+            <button class="button-primary two columns">C</button>
       </div>
       <div class="row calbtn">
             <button class="button-primary two columns">4</button>
@@ -49,8 +53,7 @@
             <button class="button-primary two columns">2</button>
             <button class="button-primary two columns">3</button>
             <button class="button-primary two columns"><i class="fas fa-minus"></i></button>
-            <button class="button-primary two columns"><i class="fas fa-times"></i><sup>2</sup></button>
-            <button class="button-primary two columns"><i class="fas fa-square-root-alt"></i></button>
+            <button class="button-primary four columns"><i class="fas fa-equals"></i></button>
       </div>
 
       <div class="row calbtn">
@@ -58,9 +61,12 @@
             <button class="button-primary two columns">.</button>
             <button class="button-primary two columns">5</button>
             <button class="button-primary two columns"><i class="fas fa-plus"></i></button>
-            <button class="button-primary four columns"><i class="fas fa-equals"></i></button>
+            
       </div>
 
     </div>
+    <script src="lib/math.min.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

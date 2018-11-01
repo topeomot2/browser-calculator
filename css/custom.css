@@ -17,10 +17,22 @@
      font-size: 8rem;
  }
 
+ #error_screen {
+     margin-top: 2px;
+     height: 30px;
+     text-align: right;
+     font-size: 2rem;
+     border-style: none;
+ }
+
  .calbtn {
      margin-top: 30px;
  }
 
  .calbtn .columns {
      font-size: 2rem;
+ }
+
+ .special_btn {
+
  }
