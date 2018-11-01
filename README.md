@@ -1,7 +1,10 @@
 # Browser Calculator
+[![Build Status](https://travis-ci.org/topeomot2/browser-calculator.svg?branch=master)](https://travis-ci.org/topeomot2/browser-calculator)
 
 A Calculator totally hosted in the browser. Patterned after the calculator on an
 Ubuntu system.
+
+
 
 ## Getting Started
 
