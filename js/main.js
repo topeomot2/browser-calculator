@@ -24,7 +24,6 @@ function eventListeners() {
 }
 
 function processBtnClick(event) {
-
     try{
         //console.log(event.target.tagName);
         if(event.target.tagName != null && (event.target.tagName.toUpperCase() === 'BUTTON')) {
@@ -40,8 +39,6 @@ function processBtnClick(event) {
     } catch(e) {
         document.querySelector('#error_screen').textContent = e.message;
     }
-    
-
 }
 
 
