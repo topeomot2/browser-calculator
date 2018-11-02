@@ -4,7 +4,3 @@ node_js:
 branches:
   only:
     - master
-install:
- - npm install -g firebase-tools
-after_success:
- - firebase deploy-project browser-calculator-token $FIREBASE_TOKEN.
